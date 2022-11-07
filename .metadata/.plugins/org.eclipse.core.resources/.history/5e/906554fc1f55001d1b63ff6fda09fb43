@@ -1,0 +1,27 @@
+package basics;
+
+import java.io.File;
+
+public class File_1 {
+	
+
+
+	public static void main(String[] args) {
+		
+		//creating a file
+		
+		File newFile = new File("C:\\Users\\Niranjan\\Desktop\\Employee.txt");
+		
+		try
+		{
+			newFile.createNewFile();
+			System.out.println("New File created");
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+
+	}
+
+}

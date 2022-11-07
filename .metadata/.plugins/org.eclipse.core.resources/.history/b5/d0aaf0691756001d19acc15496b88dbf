@@ -1,0 +1,10 @@
+package patterns;
+
+public class Numbers_Pattern_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

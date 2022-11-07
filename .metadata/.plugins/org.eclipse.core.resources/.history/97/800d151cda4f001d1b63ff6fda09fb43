@@ -1,0 +1,18 @@
+package basics;
+// Exceptional Handling in Java
+
+public class Exception_1 {
+	
+	public static void exception()
+	{
+		int a =10;
+		int b = 10/0;
+		System.out.println(a+b);
+	}
+
+	public static void main(String[] args) {
+                 exception();
+		
+	}
+
+}

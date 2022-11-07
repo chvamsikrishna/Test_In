@@ -1,0 +1,10 @@
+package SeleniumTraning.Webdriver_Concepts;
+
+public class ObjectBehaviour {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

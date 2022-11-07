@@ -1,0 +1,32 @@
+package SeleniumTraning.Webdriver_Concepts;
+
+
+
+public class ObjectBehaviour extends Utils{
+	
+
+	public static void main(String[] args) {
+
+		 ObjectBehaviour obj = new ObjectBehaviour();// This step will open the browser
+		 obj.launchBrowser("Chrome");
+		 
+		 ObjectBehaviour obj1 = new ObjectBehaviour();
+		 obj1.launchBrowser("Chrome");
+		 
+		 ObjectBehaviour obj2 = new ObjectBehaviour();
+		 obj2.launchBrowser("Chrome");
+		 
+		 obj2=obj;
+		 
+		 obj.getURL("https://www.google.com");
+		 
+		 
+		 
+		 
+		 
+		 
+	 
+
+	}
+
+}

@@ -1,0 +1,37 @@
+package hundred_programs;
+
+import java.util.Scanner;
+
+public class floydsTriangle {
+
+	public void ftProgram()
+	{
+		System.out.println("Enter the number of lines to be printed");
+		Scanner sc = new Scanner(System.in);
+		int numberOfLines = sc.nextInt();
+		
+		int compileLines =1;
+		
+		for(int i=compileLines; i<=numberOfLines;i++)
+		{
+			for ( int j=i;j<=i;j++)
+			{
+				System.out.print(j);
+			}
+			System.out.println();
+			compileLines++;
+		}
+
+	
+		
+		
+		
+	}
+	public static void main(String[] args) {
+
+		floydsTriangle ft = new floydsTriangle();
+		ft.ftProgram();
+		
+	}
+
+}

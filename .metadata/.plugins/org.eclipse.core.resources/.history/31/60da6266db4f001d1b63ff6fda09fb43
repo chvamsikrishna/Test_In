@@ -1,0 +1,48 @@
+package basics;
+// Exceptional Handling in Java
+
+public class Exception_1 {
+	
+	public static string exception()
+	{
+		int a =10;
+		
+		// below line of code gives exception which stops the execution of the program
+		// to continue the execution we have to handle the exception.
+		//int b = 10/0;
+		
+		try {
+			
+			int b =10/0;
+			System.out.println(a+b);
+			
+			// What ever the first exception comes that is thrown in the console
+			
+			String j = null;
+			
+			System.out.println(j.length());
+			return "vamsi";
+		}
+		catch(ArithmeticException e)
+		{
+			//e.printStackTrace();
+			System.out.println(e);
+		}
+		catch(NullPointerException e1)
+		{
+			
+			System.out.println(e1);
+		}
+		finally
+		{
+			System.out.println("Exception handled, we can close the issue");
+			return "Krishna";
+		}
+	}
+
+	public static void main(String[] args) {
+                 exception();
+		
+	}
+
+}

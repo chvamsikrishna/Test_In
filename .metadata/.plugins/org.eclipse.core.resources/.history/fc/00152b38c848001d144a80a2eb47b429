@@ -1,0 +1,24 @@
+package basics;
+
+public class ThisAndSuper {
+	
+	public ThisAndSuper()
+	
+	{
+		System.out.println("Hey this is default Constructor");
+	}
+	
+	ThisAndSuper(String str, int i)
+	{
+		System.out.println(str+" "+i);
+	}
+	
+	
+
+	public static void main(String[] args) {
+        // new ThisAndSuper();	
+        new ThisAndSuper("hey",420);
+		
+	}
+
+}

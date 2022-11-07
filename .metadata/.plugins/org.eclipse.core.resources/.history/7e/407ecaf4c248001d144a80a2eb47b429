@@ -1,0 +1,19 @@
+package basics;
+
+public class StaticClass {
+	
+	static int num1 =10;
+	
+	public static void marks()
+	{
+		System.out.println(num1);
+	}
+	
+	
+
+	public static void main(String[] args) {
+
+	 StaticClass.marks();
+	}
+
+}

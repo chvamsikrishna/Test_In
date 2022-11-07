@@ -1,0 +1,24 @@
+package hundred_programs;
+
+public class Reverse {
+	String s ="Vamsi Krishna";
+	
+	public String reverseString()
+	{
+		String revString = null;
+		int len = s.length();
+		for(int i = len;i>=0;i--)
+		{
+			revString+=s.charAt(i);
+		}
+		return revString;
+	}
+
+	public static void main(String[] args) {
+		
+		Reverse obj = new Reverse();
+		obj.reverseString();
+
+	}
+
+}

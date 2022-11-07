@@ -1,0 +1,50 @@
+package basics;
+
+public class StaticClass {
+	
+	static int num1;
+	int num2;
+	
+	public void marks()
+	{
+		
+		
+		System.out.println(num1+=10);
+		System.out.println(num2+=10);
+		
+	
+	}
+	
+	public void marks1()
+	{
+		
+		System.out.println(num1+=10);
+		System.out.println(num2+=10);
+	
+	}
+
+	
+
+	
+
+	public static void main(String[] args) {
+
+	
+	 StaticClass sc = new StaticClass();
+     
+     System.out.println(StaticClass.num1);
+     System.out.println(sc.num2);
+     
+StaticClass sc1 = new StaticClass();
+     
+     System.out.println(StaticClass.num1);
+     System.out.println(sc1.num2);
+     
+     
+   
+	 
+	 
+	 
+	}
+
+}

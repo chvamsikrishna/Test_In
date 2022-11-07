@@ -1,0 +1,31 @@
+package basics;
+// Exceptional Handling in Java
+
+public class Exception_1 {
+	
+	public static void exception()
+	{
+		int a =10;
+		
+		// below line of code gives exception which stops the execution of the program
+		// to continue the execution we have to handle the exception.
+		//int b = 10/0;
+		
+		try {
+			int b =10/0;
+			System.out.println(a+b);
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+			System.out.println(e);
+		}
+		
+	}
+
+	public static void main(String[] args) {
+                 exception();
+		
+	}
+
+}

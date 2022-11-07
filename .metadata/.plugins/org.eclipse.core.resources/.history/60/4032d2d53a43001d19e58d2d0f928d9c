@@ -1,0 +1,29 @@
+package hundred_programs;
+
+import java.util.Scanner;
+
+public class AmstrongNumber {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the table you want to see");
+	    int n = sc.nextInt();
+	    
+	    int value =0;
+	    
+	    
+	    while ( n/10>=1)
+	    {
+	    	int c =0;
+	        c=n%10;
+	    	n/=10;
+	    	value+=c*c*c; 
+	    }
+	    
+	    System.out.println(value);
+		
+		
+	}
+
+}

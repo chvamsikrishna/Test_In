@@ -1,0 +1,28 @@
+package hundred_programs;
+
+import java.util.Arrays;
+
+public class Substring {
+	
+	String s = "Welcome to the world of uncertanities";
+	int l = s.length();
+	
+	
+	public void allSubString()
+	{
+		
+	   String[] str=s.split(" ");
+	   System.out.println(Arrays.toString(str));
+		
+		
+	
+	}
+
+	public static void main(String[] args) {
+		
+		Substring obj =new Substring();
+		obj.allSubString();
+
+	}
+
+}

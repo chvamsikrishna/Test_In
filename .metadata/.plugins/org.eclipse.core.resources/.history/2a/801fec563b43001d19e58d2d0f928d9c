@@ -1,0 +1,36 @@
+package hundred_programs;
+
+import java.util.Scanner;
+
+public class AmstrongNumber {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the table you want to see");
+	    int n = sc.nextInt();
+	    int x=0;
+	    
+	    int y=n;
+	    
+	    
+	    while(y>1)
+	    {
+	    	x+=((y%10)*(y%10)*(y%10));
+	    	System.out.println(x);
+	    	y/=10;
+	    	
+	    }
+	    System.out.println(n);
+	    
+	    if(x==n)
+	    {
+	    	System.out.println("Given number is armstrong");
+	    }
+	    else {
+	    	System.out.println("Not armstrong number");
+	    }
+		
+	}
+
+}
