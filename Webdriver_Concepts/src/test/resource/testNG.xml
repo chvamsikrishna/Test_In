@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test" verbose="4" thread-count="2" parallel="tests">
+
+	<test name="Guru99 Test">
+		<parameter name="url" value="https://www.guru99.com/" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="testNG.SubClass_1" />
+		</classes>
+	</test>
+
+	<test name="Tutorial Points Test">
+		<parameter name="url" value="https://www.tutorialspoint.com" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="testNG.SubClass_2" />
+		</classes>
+	</test>
+
+
+	<test name="Tools QA test ">
+		<parameter name="url" value="https://www.toolsqa.com/" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="testNG.SubClass_3" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

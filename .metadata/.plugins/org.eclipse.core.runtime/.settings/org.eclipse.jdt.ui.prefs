@@ -1,4 +1,5 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"/>
+content_assist_favorite_static_members=org.testng.Assert.*
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="ey.qa.opencart.Utils.ElementUtils"><rhs name\="ey.qa.opencart.Utils.ElementUtils"/></lhs><lhs name\="eyct.qa.opencart.factory.OptionsManager"><rhs name\="eyct.qa.opencart.factory.OptionsManager"/></lhs><lhs name\="ey.qa.opencart.Utils.JavascriptUtils$JavaScriptUtil"><rhs name\="ey.qa.opencart.Utils.JavascriptUtils$JavaScriptUtil"/></lhs><lhs name\="ey.qa.opencart.Utils.JavaScriptUtil"><rhs name\="ey.qa.opencart.Utils.JavaScriptUtil"/></lhs><lhs name\="java.lang.ThreadLocal"><rhs name\="java.lang.ThreadLocal"/></lhs></history>
 content_assist_number_of_computers=12
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0

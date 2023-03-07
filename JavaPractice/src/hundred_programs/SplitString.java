@@ -2,29 +2,32 @@ package hundred_programs;
 
 public class SplitString {
 	
-	String s = "We are not immortals";
+	String s = "dshb dvadvu sdjniajdvv dvnjnvsnv ";
 	int len =s.length();
 	String subs="";
 	int index=0;
 	
 	public void breakString()
 	{
-		for(int i=index;i<len;i++)
+		for(int i=0;i<len;i++)
 		{
 			
-	      if()
+		  char blank = s.charAt(i);
+		  char a =' ';
+	      if(blank == a )
 			{
-			index=i;
-			//System.out.println(subs);
-			subs ="";
-			break;
+	    	 System.out.println(subs);
+	    	 subs ="";
+	    	 
 			}
 			else
 			{
-				subs+=s.charAt(i);	
+				subs+=s.charAt(i);
+				
 			}
 			
 		}
+		
 		System.out.println(subs);
 	}
 

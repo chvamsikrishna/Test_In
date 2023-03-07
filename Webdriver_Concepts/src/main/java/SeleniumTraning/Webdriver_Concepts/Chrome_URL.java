@@ -4,11 +4,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Chrome_URL {
+	
+	static WebDriver driver;
 
 	public static void main(String[] args) {
 		
 		String env = "Chrome";
-		Utils browserUtils =new Utils();
+		Utils browserUtils =new Utils(driver);
 		browserUtils.launchBrowser(env);
 
 	    browserUtils.getURL("https://www.google.com/");

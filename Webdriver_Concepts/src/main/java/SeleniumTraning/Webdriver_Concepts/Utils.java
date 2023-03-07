@@ -5,7 +5,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Utils {
 
-	 static WebDriver driver;
+	  WebDriver driver;
+	 
+	 public Utils(WebDriver driver)
+	 {	
+		 this.driver = driver;
+	 }
 	
 	public WebDriver launchBrowser(String browserName)
 	{
@@ -33,6 +38,16 @@ public class Utils {
 	public String getPageTitle()
 	{
 		 return driver.getTitle();
+	}
+	
+	public void quitBrowser()
+	{
+		driver.quit();
+	}
+	
+	public void closeBrowser()
+	{
+		driver.close();
 	}
 	
 	
